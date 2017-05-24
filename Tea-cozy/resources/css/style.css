@@ -1,0 +1,163 @@
+body {
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  justify-content: center;
+  margin: 0px;
+  border:0;
+    }
+.header{
+  display: flex;
+  background-color: black;
+  height:70px;
+  padding:0; 10px;
+  border-bottom:  1px solid white;
+  width:100%;
+  align-items: baseline;
+}
+
+.link{
+  display:inline-flex;
+  margin-left: 900px;
+  border: 1 solid white;
+
+}
+
+.header a{
+  color: seashell;
+  font-family:helvetica;
+  opacity:0.9;
+  font-size:22px;
+  text-decoration: underline;
+
+}
+.header img{
+  height: 50px;
+}
+
+
+
+.top{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height:450px;
+
+  font-family: helvetica;
+  padding-top: 250px;
+
+  margin-left: 150px;
+
+}
+
+.top1{
+  background-color: black;
+  height: 100px;
+  padding-top: 30px;
+}
+.top h2{
+  text-align: center;
+
+}
+.top h4{
+  text-align: center;
+    padding-bottom: 50px;
+}
+.medium{
+  margin-left:150px;
+  width: 1200px;
+  font-family: helvetica;
+
+  flex-direction: column;
+  text-align: center;
+}
+
+.content{
+  margin-left: 250px;
+  display: flex;
+
+  height: 500px;
+  width:1000px;
+  flex-wrap: wrap;
+}
+
+.content1 .content2 .content3 .content4 .content5{
+  display: inline-block;
+  justify-content: space-between;
+
+}
+.content4 .content5{
+  justify-content: center;
+}
+.content p{text-align: center;}
+.content img{
+  height: 200px;
+  width: 300px;
+}
+
+.content p{
+    font-family: helvetica;
+    align-items: center;
+}
+.lower{
+margin-left: 150px;
+display: inline-block;
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+font-family: helvetica;
+width: 1200px;
+height: 500px;
+  padding-top: 100px;
+}
+.lower h2{text-align: center;
+font-family: helvetica;}
+.section{
+  display:inline-flex;
+  justify-content: space-between;
+  width: 1200px;
+
+
+
+}
+
+.one{
+    background-color: black;
+    width: 200px;
+margin-left: 100px;
+text-align: center;
+}
+
+.two{
+    background-color: black;
+    width: 200px;
+
+text-align: center;
+}
+
+.three{
+    background-color: black;
+    width: 200px;
+margin-right: 100px;
+text-align: center;
+}
+.section1 .section2 .section3{
+display: inline-block;
+
+flex-direction: column;
+opacity: 1;
+width: 300px;
+border: 2px solid red;
+
+}
+
+.bottom h2{
+  text-align: center;
+  font-family: helvetica;
+}
+.end{
+  font-family: helvetica;
+  text-align: center;
+}
+footer{
+  justify-content: flex-start;
+  font-family: helvetica;
+  left: 20px;
+}
