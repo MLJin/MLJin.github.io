@@ -1,0 +1,104 @@
+html{
+  font size: 18px;
+}
+body{
+    font-family:helvetica;
+    color: white;
+
+}
+.header{
+  background-color: black;
+  display: inline-flex;
+  width: 100%;
+  padding-left: 15rem;
+  align-items:center;
+  padding-top: 0.66rem;
+  padding-bottom:0.66rem;
+
+}
+.header img{
+  height: 1.5rem;
+
+}
+header{
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.subject{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 25rem;
+  margin-top: 0;
+
+}
+
+#subject1{
+  background-color: black;
+  width: 25rem;
+  margin-left: 15rem;
+}
+.text{
+  display: block;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.new-arrival{
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+
+}
+.classification{
+  background-color: firebrick;
+  display:inline-flex;
+  padding-left: 15rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.container{
+  display: inline-flex;
+  padding-left: 15rem;
+  justify-content: space-between;
+}
+
+.pen, .watch, .glasses{
+  display: inline-block;
+  border:2px solid green;
+  padding-top: 2rem;
+
+
+}
+.container img{
+  height: 9rem;
+  width: auto;
+  padding:2rem;
+}
+.pen1, .watch1, .glasses1{
+  background-color: black;
+}
+.container p{
+
+  text-align: center;
+}
+
+.location, .hrs{
+  display: block;
+}
+.Loca, .Time{
+  background-color: black;
+}
+footer{
+  background-color: black;
+  vertical-align: middle;
+}
