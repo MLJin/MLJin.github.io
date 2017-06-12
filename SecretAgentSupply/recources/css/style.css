@@ -9,8 +9,9 @@ body{
 .header{
   background-color: black;
   display: inline-flex;
-  width: 100%;
+  width: 720px;
   padding-left: 15rem;
+  margin-left: 15rem;
   align-items:center;
   padding-top: 0.66rem;
   padding-bottom:0.66rem;
@@ -28,13 +29,18 @@ header{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   height: 25rem;
   margin-top: 0;
-
+  width: 960px;
+  margin-left: 15rem;
 }
 
 #subject1{
   background-color: black;
   width: 25rem;
   margin-left: 15rem;
+  display:flex;
+  position: relative;
+  top: 9rem;
+
 }
 .text{
   display: block;
@@ -57,27 +63,29 @@ h1{
 }
 .classification{
   background-color: firebrick;
+  margin-left: 15rem;
   display:inline-flex;
   padding-left: 15rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  width: 100%;
-  justify-content: space-between;
+  width: 720px;
+  justify-content: space-around;
 
 }
 
 .container{
   display: inline-flex;
   padding-left: 15rem;
-  justify-content: space-between;
+  padding-top: 3rem;
+
 }
 
 .pen, .watch, .glasses{
   display: inline-block;
   border:2px solid green;
   padding-top: 2rem;
-
-
+  width:47%;
+  justify-content: space-between;
 }
 .container img{
   height: 9rem;
@@ -86,19 +94,42 @@ h1{
 }
 .pen1, .watch1, .glasses1{
   background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .container p{
-
   text-align: center;
 }
 
+.detail{
+  padding-left: 15rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .location, .hrs{
-  display: block;
+  padding-top: 3rem;
+  width: 30%;
+  padding-bottom: 4rem;
+
 }
 .Loca, .Time{
   background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+.detail p{
+  color:black;
+
+}
+
+
 footer{
   background-color: black;
   vertical-align: middle;
+  height: 5rem;
+  padding-left: 15rem;
+
 }
