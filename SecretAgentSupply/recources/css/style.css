@@ -68,17 +68,23 @@ h1{
   background-color: firebrick;
   margin-left: 15rem;
   display:inline-flex;
-  padding-left: 9.5rem;
+  padding-left: 8.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   justify-content: space-around;
+  display: flex;
+
 
 }
-
+.tablat {
+  display: none;
+}
 .container{
+  position: relative;
   display: inline-flex;
   padding-left: 15rem;
   padding-top: 3rem;
+  justify-content: space-between;
 
 }
 
@@ -86,7 +92,7 @@ h1{
   display: inline-block;
   border:2px solid green;
   padding-top: 2rem;
-  width:47%;
+  width:30%;
   justify-content: space-between;
 }
 .container img{
@@ -98,9 +104,10 @@ h1{
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-.container p{
   text-align: center;
+}
+.glasses img{
+  width:70%
 }
 
 .detail{
@@ -127,11 +134,79 @@ h1{
 
 }
 
-
+.ending{ background-color: black;
+vertical-align: middle;
+height: 5rem;
+padding-left: 12rem;
+margin-left: 15rem;
+}
 footer{
-  background-color: black;
-  vertical-align: middle;
-  height: 5rem;
-  padding-left: 15rem;
+  position: relative;
+  top: 2rem;
+}
+@media only screen and (max-width: 1024px){
+
+.classification p {
+      display: none;
+    }
+    .tablat {
+      display: block;
+      text-align: center;
+    }
+ .glasses{
+   display:none;
+ }
+ .pen, .watch{
+   width: 47%;
+   text-align: center;
+ }
+.location, .hrs{
+  width: 35%;
+}
+.ending footer{
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 470px){
+  .header{
+    display: block;
+    text-align: center;
+  }
+  header{
+    display: none;
+
+  }
+  #subject{
+    position: relative;
+    vertical-align:bottom;
+  }
+.new-arrival{
+  font-size:0.77rem;
+  font-weight: bold;
+}
+h1{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.text{
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.watch{
+  display: none;
+}
+.pen{
+  width:90%;
+  text-align: center;
+}
+
+.detail{
+  display: block;
+  text-align: center;
+}
+.location, .hrs{
+  width: 90%;
+}
 
 }
