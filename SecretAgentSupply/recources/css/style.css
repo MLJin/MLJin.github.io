@@ -28,13 +28,14 @@ header{
   margin-left: 1rem;
   font-size: 1rem;
 }
-.subject{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-  height: 25rem;
-  margin-top: 0;
-  margin-left: 15rem;
-}
 
+.subject {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+ background-size: cover;
+}
 #subject1{
   background-color: black;
   width: 25rem;

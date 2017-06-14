@@ -1,0 +1,152 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica
+}
+.top{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:30rem;
+}
+.head{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background-color: cadetblue;
+  width: 960px;
+  top:1rem;
+  padding: 1rem 2rem;
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  left: 13rem;
+
+
+}
+.head img{
+  height: 1.5rem;
+}
+header{
+  padding-left: 1rem;
+}
+.link{
+  position: relative;
+  width: 19rem;
+  left: 20rem;
+  display: inline-flex;
+  flex-grow: 2rem;
+  justify-content: space-between;
+
+}
+.insert{
+  position: relative;
+  width:450px;
+  left:38rem;
+  top: 14rem;
+  top: 10rem;
+  background-color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1rem 5rem;
+}
+
+.upper{
+  display: inline-flex;
+  position: relative;
+  top:3rem;
+  height: 8rem;
+  left:24rem;
+}
+.middle{
+  position: relative;
+  left:5rem;
+}
+.right{
+  position:relative;
+  left:12rem;
+}
+.left, .middle, .right{
+  display: inline-block;
+}
+.left img{
+  width:3.5rem;
+}
+.middle img{
+  width: 5rem;
+}
+.right img{
+  height:3rem;
+  width: 5rem;
+}
+.left p{
+  width: 7rem;
+  text-align: center;
+}
+.middle p, .right p{
+ padding-top: 1.8rem;
+}
+
+.lower{
+  position: relative;
+  display: inline-flex;
+  top: 3rem;
+  left:20rem;
+}
+.section1, .section2{
+  display: inline-block;
+  width: 30%
+}
+
+.philosophy, .appoint{
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  padding:0.5rem 1.25rem;
+  width: 13rem;
+  bottom:1rem;
+  color: white;
+}
+.appoint{
+  left: 5rem;
+}
+.section1 p, .section2 p{
+width: 70%
+}
+
+
+footer{
+  position: relative;
+  background-color: azure;
+  background-size: cover;
+ width: 960px;
+  left: 14rem;
+  top:5rem;
+  display: inline-flex;
+  padding: 4rem 4rem;
+  align-items:center;
+}
+
+footer img{
+  height: 1.5rem;
+}
+footer p{
+  position: relative;
+  left: 1rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+.head{
+  top: 0
+}
+.top{
+  height: 22rem;
+}
+.sizing{
+width: 1024px;
+}
+}
