@@ -8,8 +8,6 @@ body{margin:0 auto;
 /* Header */
 .header{height:64px;
 margin: 0 0;
-padding-left: 24px;
-border: 1px solid green;
 }
 .container{
   margin: 0 0;
@@ -26,12 +24,10 @@ border: 1px solid green;
 .banner{
   background-color:rgba(0,0,0,0.15);
   display:flex;
-  padding-left: 24px;
   padding-top: 32px;
   padding-bottom: 32px;
   width: 100%;
   text-align: left;
-  border: 1px solid red;
 }
 .banner img{width: 60%;}
 .banner1{
@@ -59,8 +55,6 @@ h1{
 .main{
   display:inline-flex;
   margin:0 0;
-  border: 2px solid red;
-  padding-left: 24px;
   padding-top: 32px;
   width: 100%;
 }
@@ -104,7 +98,6 @@ padding-left: 24px;
 width: 100%;
 margin: 0 0;
 text-align: center;
-border: 1px solid red;
 padding-top:32px;
 padding-bottom: 32px;}
 .learning{
@@ -130,22 +123,19 @@ padding-bottom: 32px;}
   width:100%;
   display: inline-flex;
   margin: 0 0;
-  border: 1px solid red;
+
   margin-bottom: 32px;
 }
 .exhibition video{
   width: 100%;
-  border: 1px solid red;
 }
 .exhibition2{
   padding-left: 32px;
   display: inline-block;
-  border: 1px solid red;
   margin: 0 0;
 }
 .exhibition1{
   display: inline-block;
-  border: 1px solid red;
   padding-left: 24px;
 }
 .exhibition3{
@@ -157,11 +147,10 @@ padding-bottom: 32px;}
 }
 .exhibition3 img{
   width: 200px;
-  border: 1px solid blue;
 }
 .exhibition4 img{
   width: 200px;
-  border: 1px solid blue;
+
   margin: 0 0;
   padding-top: 16px;
 }
@@ -171,7 +160,6 @@ padding-bottom: 32px;}
 }
 .explanation{
   display: inline-block;
-  border: 1px solid green;
   margin: 0 0;
   padding-left: 16px;
   width:300px;
@@ -179,7 +167,6 @@ padding-bottom: 32px;}
 }
 .exhibition4{
   display: inline-flex;
-  border: 1px solid blue;
   justify-content: center;
   margin: 0 0;
 
@@ -190,9 +177,8 @@ padding-bottom: 32px;}
 /* Footer */
 .ending{
   display: inline-flex;
-  padding-left: 24px;
+
   width: 100%;
-  border: 1px solid blue;
   justify-content: space-between;
   height: 80px;
   padding-top: 16px;
