@@ -12,7 +12,8 @@ margin: 0 0;
 .header i,head{
   padding-left: 24px;
 }
-.icon{display: none;}
+.icon{display: inline-flex;
+  display: none;}
 .container{
   margin: 0 0;
   display: inline-block;
@@ -200,10 +201,13 @@ footer{
  padding-right: 16px;
   margin-left: 16px;
 }
-/* Mobile module */
-@media only screen and (max-width: 470px){
-head{
-  display: none;
-}
+
+@media only screen and (max-width: 512px) {
+
+.header head,i,nav{
+  display: none;}
+.icon{
+  display: inline-flex;
+  justify-content: space-around;
 }
 }
